@@ -1,0 +1,608 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+h1, h3, p, h2, li, h4, a, span, button {
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 0.8px;
+}
+
+p, input, textarea, button {
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 19px;
+}
+
+textarea, input, button {
+  outline: 0;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.body1 {
+  overflow: hidden;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99999998888888900;
+  background-color: #BB7A44;
+  transition: all 1s ease;
+}
+.loader img {
+  width: 300px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loader h1 {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.all-1 {
+  transform: translate(-30%) !important;
+  transition: all 1s ease !important;
+}
+
+.all {
+  transition: all 1s ease !important;
+}
+
+.all-2 {
+  transform: translate(0) !important;
+  transition: all 1s ease !important;
+}
+
+.menu-sm {
+  width: 30%;
+  height: 100vh;
+  position: fixed;
+  overflow: scroll;
+  background-color: #fff;
+  z-index: 9999999999;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+  transition: all 1s ease;
+  padding: 0px 0;
+}
+.menu-sm h3 {
+  color: #111;
+  padding: 15px 50px;
+}
+.menu-sm h3 a {
+  color: #111;
+  font-size: 16px;
+}
+.menu-sm .text {
+  padding: 50px 0;
+}
+.menu-sm .fa-instagram {
+  font-size: 20px;
+}
+.menu-sm .click-on-1 {
+  float: right;
+  padding: 21px 0;
+  margin: 10px 10px;
+  z-index: 1001;
+  position: relative;
+  right: 0;
+}
+.menu-sm .line-1-1, .menu-sm .line-2-1 {
+  width: 25px;
+  height: 3px;
+  margin: 6px 0;
+  background-color: #111;
+  transition: all 0.2s ease;
+}
+.menu-sm .line-1-1 {
+  transform: rotate(-45deg) translate(-3px, 2.5px);
+}
+.menu-sm .line-2-1 {
+  transform: rotate(45deg) translate(-3.5px, -3.5px);
+}
+
+.toggle {
+  top: 0 !important;
+  transition: all 0.3s ease;
+}
+
+.black {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 99999999;
+  display: none;
+}
+
+.right-toggle {
+  transform: translate(0, 0) !important;
+  transition: all 1s ease;
+}
+
+.head {
+  height: 750px;
+  background: url("../img/shtory-v-stile-shale-40.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 999999;
+}
+.head .row {
+  margin: 0;
+  height: 100%;
+  background-color: rgba(187, 122, 68, 0.4);
+}
+.head .container {
+  padding: 0;
+}
+.head .container .top-menu {
+  padding: 20px 0;
+}
+.head .container .top-menu .logo {
+  padding: 0;
+}
+.head .container .top-menu .logo h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 35px;
+  margin: 0;
+}
+.head .container .top-menu .logo img {
+  position: absolute;
+  width: 180px;
+  top: -70px;
+}
+.head .container .top-menu .logo svg {
+  position: absolute;
+  top: -70px;
+  left: -50px;
+}
+.head .container .top-menu .phone {
+  padding: 12px 0;
+}
+.head .container .top-menu .phone h3 {
+  text-align: right;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 40px;
+  text-align: right;
+}
+.head .container .top-menu .phone h3 a {
+  color: #fff;
+}
+.head .container .info {
+  padding: 0;
+  margin-top: 72.5px;
+}
+.head .container .info h1 {
+  text-align: left;
+  font-size: 45px;
+  font-weight: 100;
+  margin: 0 0 40px 0;
+  line-height: 60px;
+}
+.head .container .info .contact {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 25px 25px;
+}
+.head .container .info .contact h2 {
+  text-align: center;
+  font-size: 22px;
+  color: #111;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+.head .container .info .contact .col-md-4 {
+  padding: 0 15px;
+}
+.head .container .info .contact input {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  color: #888;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  padding: 8px 0;
+}
+.head .container .info .contact .button {
+  margin: 25px 0 0 0;
+  padding: 0;
+}
+.head .container .info .contact .button button {
+  width: 100%;
+  margin: auto;
+  padding: 6.5px 25px;
+  font-size: 18px;
+  font-weight: 300;
+  border: 0;
+  color: #fff;
+  background-color: #BB7A44;
+}
+
+.fade-menu {
+  width: 100%;
+  position: fixed;
+  top: -300px;
+  z-index: 999999999;
+  transition: all 1s ease !important;
+}
+.fade-menu img {
+  position: absolute;
+  width: 180px;
+  top: -50px;
+  left: 0px;
+}
+.fade-menu .click-on {
+  float: right;
+  margin: 10px 0;
+  z-index: 1001;
+  position: relative;
+  right: 0;
+  cursor: pointer;
+  display: none;
+}
+.fade-menu .line-1-1, .fade-menu .line-2-1 {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: #fff;
+}
+.fade-menu .top {
+  width: 100%;
+  height: 82px;
+  background-color: rgba(187, 122, 68, 0.8);
+}
+.fade-menu .top .container {
+  padding: 0;
+}
+.fade-menu .top .button {
+  padding: 30px 0;
+}
+.fade-menu .top svg {
+  position: absolute;
+  top: -52px;
+  left: -50px;
+}
+.fade-menu .top h3 {
+  text-align: right;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 40px;
+  text-align: right;
+}
+.fade-menu .top h3 a {
+  color: #fff;
+}
+
+.bottom-menu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  mix-blend-mode: difference;
+  z-index: 9999999;
+  transition: all 1s ease !important;
+}
+.bottom-menu .container {
+  padding: 0;
+}
+.bottom-menu .container .col-md-6 {
+  padding: 30px 0;
+}
+.bottom-menu .container .col-md-6 h3 {
+  font-size: 16px;
+}
+.bottom-menu .container .col-md-6 h3 a {
+  color: #fff;
+}
+.bottom-menu .container .col-md-6 svg {
+  z-index: 9999999;
+}
+.bottom-menu .container .instagram {
+  padding: 26px 0;
+}
+.bottom-menu .container .instagram .fa-instagram {
+  font-size: 30px;
+}
+
+.numbers {
+  background-color: #fff;
+  position: relative;
+  z-index: 999999;
+}
+.numbers .container {
+  padding: 85px 0;
+}
+.numbers .container h1 {
+  color: #111;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.numbers .container .item {
+  padding: 0 30px;
+}
+.numbers .container .item .img {
+  height: 200px;
+  background: url("../img/chalet-la-datcha-courchevel-1850-bedroom-5-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.numbers .container .item .text {
+  height: 150px;
+  border-left: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  padding: 0 15px;
+}
+.numbers .container .item .text h2 {
+  font-size: 20px;
+  color: #111;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px 0 10px;
+}
+.numbers .container .item .text p {
+  font-size: 16px;
+  color: #111;
+  font-weight: 100;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.numbers .container .item .price {
+  background-color: #C4B6B6;
+}
+.numbers .container .item .price h3 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #111;
+  text-align: center;
+  padding: 10px 0;
+}
+.numbers .container .item button {
+  background-color: #BB7A44;
+  border: none;
+  color: #fff;
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.advantages {
+  background: url("../img/chalet-la-datcha-courchevel-1850-bedroom-5-1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 999999;
+}
+.advantages .row {
+  background-color: rgba(57, 49, 29, 0.7);
+  padding: 85px 0;
+  margin: 0;
+}
+.advantages .container {
+  padding: 0;
+}
+.advantages .container h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.advantages .container .item {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 25px 0 10px;
+}
+.advantages .container .item .info {
+  height: 230px;
+  padding: 25px;
+}
+.advantages .container .item .info img {
+  width: 35%;
+}
+.advantages .container .item .info h3 {
+  color: #111;
+  padding-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.stage {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  position: relative;
+  z-index: 999999;
+}
+.stage .container {
+  padding: 85px 0;
+}
+.stage .container h1 {
+  color: #111;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.stage .container .info {
+  padding: 0;
+}
+.stage .container .info .item {
+  padding: 0 20px;
+}
+.stage .container .info .item .radius {
+  height: 244.5px;
+  border: 5px solid #C4B6B6;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 0 20px;
+  position: relative;
+  z-index: 999;
+}
+.stage .container .info .item .radius img {
+  width: 33%;
+  margin-top: 30px;
+}
+.stage .container .info .item .radius p {
+  font-size: 16px;
+  color: #111;
+  padding-top: 10px;
+  font-weight: 300;
+}
+.stage .container .info .item .radius2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: relative;
+  background-color: #fff;
+  z-index: 1000;
+  bottom: 30px;
+  border: 5px solid #C4B6B6;
+}
+.stage .container .info .item .radius2 h1 {
+  margin: 25px 0;
+  color: #39311D;
+}
+.stage .container .info button {
+  background-color: #BB7A44;
+  color: #fff;
+  z-index: 99999999;
+  position: relative;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 35px;
+}
+
+.reviews {
+  background-color: #fff;
+}
+.reviews .container {
+  padding: 85px 0;
+}
+.reviews .container h1 {
+  color: #111;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 50px;
+}
+.reviews .container #owl .item .img {
+  border: 1px solid #707070;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-position: top;
+  background-size: cover;
+}
+.reviews .container #owl .item h3 {
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.reviews .container #owl .item p {
+  font-size: 16px;
+}
+.reviews .container #owl .item h3, .reviews .container #owl .item p {
+  color: #111;
+  text-align: center;
+}
+.reviews .container #owl .owl-nav {
+  display: block;
+  position: absolute;
+  top: 70px;
+  width: 100%;
+}
+.reviews .container #owl .owl-nav .owl-prev {
+  left: -40px;
+  position: absolute;
+}
+.reviews .container #owl .owl-nav .owl-next {
+  position: absolute;
+  right: -40px;
+}
+.reviews .container #owl .owl-nav button span {
+  color: #39311d;
+  font-size: 80px;
+}
+.reviews .container #owl .owl-dots {
+  padding-top: 20px;
+}
+.reviews .container #owl .owl-dots button {
+  border: 1.5px solid #BB7A44;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 0 15px;
+}
+.reviews .container #owl .owl-dots .active {
+  background-color: #BB7A44;
+}
+
+.map {
+  position: relative;
+}
+.map .item {
+  width: 400px;
+  position: absolute;
+  z-index: 99999999;
+  top: 100px;
+  right: 100px;
+  bottom: 120px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+}
+.map .item .col-md-12 {
+  padding: 10px 0;
+}
+.map .item h1 {
+  color: #111;
+  font-size: 20px;
+}
+.map .item input {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  color: #888;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  padding: 8px 0;
+}
+.map .item button {
+  width: 100%;
+  margin: auto;
+  padding: 6.5px 25px;
+  font-size: 18px;
+  font-weight: 300;
+  border: 0;
+  color: #fff;
+  background-color: #BB7A44;
+}

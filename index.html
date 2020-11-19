@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>hotel</title>
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="fonts/Montserrat/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="libs/animate/animate.min.css">
+	<link rel='stylesheet' media='screen and (max-width: 768px)' href='media_queries.css' />
+	<link rel='stylesheet' media='screen and (max-width: 600px)' href='media_queries.css' />
+	<link rel='stylesheet' media='screen and (max-width: 480px)' href='media_queries.css' />
+	<link rel='stylesheet' media='screen and (max-width: 320px)' href='media_queries.css' />
+</head>
+<style>
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: invert(7s0%);
+}
+</style>
+<div class="loader" id="loader">
+	<img src="img/logotip2work.png">
+</div>
+<body class="body1" id="body" onload="myFunction()">
+
+<!-- FADE MENU -->
+
+<div class="fade-menu">
+	<div class="top">
+		<div class="container">
+			<div class="logo col-md-3 col-sm-6">
+				<img src="img/logotip2work.png">
+<!-- 				<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="190px" height="190px" viewBox="0 0 5000 5000" preserveAspectRatio="xMidYMid meet">
+					<g id="layer102" fill="#fef9eb" stroke="none">
+					 <path d="M2600 3215 l0 -75 45 0 c25 0 45 5 45 10 0 6 -16 10 -35 10 -31 0 -35 3 -35 25 0 22 4 25 35 25 19 0 35 5 35 10 0 6 -16 10 -35 10 -28 0 -35 4 -35 20 0 16 7 20 35 20 19 0 35 5 35 10 0 6 -20 10 -45 10 l-45 0 0 -75z"/>
+					</g>
+					<g fill="#fff" stroke="none">
+					 <path d="M2720 3215 c0 -43 4 -75 10 -75 6 0 10 28 10 65 0 63 1 65 25 65 14 0 25 5 25 10 0 6 -16 10 -35 10 l-35 0 0 -75z"/>
+					</g>
+					<g id="layer103" fill="#fef9eb" stroke="none">
+					 <path d="M2220 3220 c0 -40 4 -70 10 -70 6 0 10 14 10 30 0 27 3 30 30 30 27 0 30 -3 30 -30 0 -16 4 -30 9 -30 5 0 10 32 10 70 0 39 -4 70 -9 70 -6 0 -10 -13 -10 -30 0 -27 -3 -30 -30 -30 -27 0 -30 3 -30 30 0 17 -4 30 -10 30 -6 0 -10 -30 -10 -70z"/>
+					 <path d="M2362 3267 c-65 -69 34 -163 102 -97 11 11 19 33 19 51 0 62 -78 92 -121 46z m96 -15 c41 -53 -35 -124 -82 -76 -9 8 -16 28 -16 44 0 53 64 74 98 32z"/>
+					 <path d="M2530 3226 c0 -53 -3 -65 -17 -69 -10 -3 2 -5 27 -5 25 0 37 2 28 5 -15 4 -18 16 -18 69 0 36 -4 64 -10 64 -6 0 -10 -28 -10 -64z"/>
+					 <path d="M2606 3237 c1 -90 -1 -87 47 -85 l42 1 -37 4 c-33 4 -38 8 -38 29 0 21 5 24 35 24 19 0 35 5 35 11 0 8 -12 10 -35 6 -33 -5 -35 -4 -35 23 0 26 4 29 38 33 36 4 36 4 -8 5 l-45 2 1 -53z"/>
+					 <path d="M2720 3220 c0 -40 4 -70 10 -70 6 0 10 28 10 64 0 63 1 65 28 69 22 3 20 4 -10 6 l-38 1 0 -70z"/>
+					 <path d="M1511 2713 c-30 -82 -51 -125 -69 -140 l-27 -23 29 0 c44 0 62 23 98 123 l32 90 31 -94 c32 -94 32 -94 11 -103 -19 -9 -18 -10 12 -14 18 -2 45 -2 60 0 l27 3 -29 15 c-23 12 -35 32 -58 95 -53 149 -60 165 -67 165 -5 0 -27 -53 -50 -117z"/>
+					 <path d="M2005 2823 c-32 -8 -75 -54 -87 -94 -34 -116 74 -222 186 -179 47 18 56 69 15 91 -27 14 -41 2 -26 -21 25 -41 -34 -76 -83 -50 -26 14 -50 67 -50 111 0 49 29 100 66 115 44 19 48 18 82 -11 17 -14 33 -21 36 -16 3 5 -8 21 -25 35 -30 25 -64 31 -114 19z"/>
+					 <path d="M2570 2812 c-100 -50 -106 -186 -11 -249 91 -61 205 9 203 124 0 56 -28 99 -77 123 -51 25 -70 25 -115 2z m107 -26 c24 -21 28 -32 31 -93 4 -63 2 -72 -23 -101 -54 -65 -126 -32 -141 65 -17 116 60 192 133 129z"/>
+					 <path d="M1740 2811 c0 -5 9 -11 20 -14 18 -5 20 -14 20 -112 0 -98 -2 -107 -20 -112 -41 -11 -18 -23 43 -22 59 0 61 1 40 16 -21 14 -23 23 -23 120 0 96 2 105 20 110 40 11 18 23 -40 23 -33 0 -60 -4 -60 -9z"/>
+					 <path d="M2260 2811 c0 -5 9 -11 20 -14 19 -5 20 -14 20 -121 0 -64 -3 -116 -7 -116 -30 1 -53 16 -62 41 -14 42 -31 36 -31 -11 l0 -41 118 3 117 3 3 29 c5 43 -15 57 -28 19 -10 -27 -32 -42 -62 -43 -5 0 -8 52 -8 116 0 107 1 116 20 121 40 11 18 23 -40 23 -33 0 -60 -4 -60 -9z"/>
+					 <path d="M2830 2811 c0 -5 9 -11 20 -14 18 -5 20 -14 20 -112 0 -98 -2 -107 -20 -112 -11 -3 -20 -9 -20 -14 0 -12 152 -11 184 1 55 20 58 88 6 115 l-29 15 20 35 c12 20 37 49 57 65 l37 30 -28 0 c-41 0 -60 -13 -101 -70 -46 -64 -66 -66 -66 -4 0 37 4 47 20 51 40 11 18 23 -40 23 -33 0 -60 -4 -60 -9z m164 -147 c17 -16 21 -51 8 -71 -4 -6 -20 -17 -36 -23 -41 -15 -56 1 -56 61 l0 49 34 0 c19 0 42 -7 50 -16z"/>
+					 <path d="M3140 2811 c0 -5 9 -11 20 -14 18 -5 20 -14 20 -112 0 -98 -2 -107 -20 -112 -41 -11 -18 -23 43 -22 59 0 61 1 40 16 -21 14 -23 23 -23 120 0 96 2 105 20 110 40 11 18 23 -40 23 -33 0 -60 -4 -60 -9z"/>
+					 <path d="M3302 2797 c15 -13 43 -62 67 -117 l40 -95 -21 -17 c-20 -18 -20 -18 9 -18 41 0 55 19 98 130 21 52 46 102 56 112 11 9 19 19 19 22 0 3 -25 6 -55 6 -30 0 -55 -4 -55 -10 0 -5 7 -10 15 -10 18 0 19 -9 5 -44 -8 -23 -15 -26 -59 -26 -39 0 -53 4 -61 19 -16 31 -12 51 10 51 11 0 20 5 20 10 0 6 -26 10 -57 10 l-58 0 27 -23z m158 -84 c0 -5 -9 -30 -19 -58 l-19 -50 -21 48 c-12 27 -21 53 -21 58 0 5 18 9 40 9 22 0 40 -3 40 -7z"/>
+					 <path d="M1885 1964 c525 -343 611 -396 630 -388 13 5 288 182 613 394 l589 385 -62 3 -62 3 -539 -353 c-296 -193 -546 -352 -554 -352 -13 0 -248 151 -933 600 l-158 104 -66 0 -65 0 607 -396z"/>
+					 </g>
+				</svg> -->
+			</div>
+			<div class="button col-md-9 col-sm-6" align="right">
+				<h3><a href="#numbers" class="prevent">наши номера</a></h3>
+				<h3><a href="#advantages" class="prevent">преимущества</a></h3>
+				<h3><a href="#stage" class="prevent">схема работ</a></h3>
+				<h3><a href="#reviews" class="prevent">отзывы</a></h3>
+				<h3><a href="#map" class="prevent">забронировать</a></h3>
+				<div class="click-on">
+					<div class="line-1-1"></div>
+					<div class="line-2-1"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bottom-menu">
+	<div class="container">
+		<div class="col-md-6 col-sm-6">
+			<h3 style="text-align: left;"><a href="#">г. Ишимбай, Бульварная 80</a></h3>
+		</div>
+		<div class="col-md-6 col-sm-6 instagram" align="right">
+			<h3 class="fa fa-instagram"></h3>
+		</div>
+	</div>
+</div>
+<div class="black"></div>
+<div class="menu-sm">
+	<div class="click-on-1">
+		<div class="line-1-1"></div>
+		<div class="line-2-1"></div>
+	</div>
+	<div class="text">
+		<h3><a href="#numbers" class="prevent">наши номера</a></h3>
+		<h3><a href="#advantages" class="prevent">преимущества</a></h3>
+		<h3><a href="#stage" class="prevent">схема работ</a></h3>
+		<h3><a href="#reviews" class="prevent">отзывы</a></h3>
+		<h3><a href="#map" class="prevent">забронировать</a></h3>
+	</div>
+	<div class="text-2">
+		<h3 style="text-align: left;"><a href="#">г. Ишимбай, Бульварная 80</a></h3>
+		<h3 class="fa fa-instagram"></h3>
+	</div>
+</div>
+<!-- FADE MENU -->
+
+<div class="all" id="all">
+<!-- ГОЛОВА -->
+<header class="head">
+	<div class="row">
+		<div class="container">
+		<div class="top-menu col-md-12 col-sm-12 col-xs-12">
+			<div class="logo col-md-3 col-sm-3 col-xs-4">
+				<img src="img/logotip2work.png">
+<!-- 				<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="190px" height="190px" viewBox="0 0 5000 5000" preserveAspectRatio="xMidYMid meet">
+					<g id="layer102" fill="#fef9eb" stroke="none">
+					 <path d="M2600 3215 l0 -75 45 0 c25 0 45 5 45 10 0 6 -16 10 -35 10 -31 0 -35 3 -35 25 0 22 4 25 35 25 19 0 35 5 35 10 0 6 -16 10 -35 10 -28 0 -35 4 -35 20 0 16 7 20 35 20 19 0 35 5 35 10 0 6 -20 10 -45 10 l-45 0 0 -75z"/>
+					</g>
+					<g fill="#fff" stroke="none">
+					 <path d="M2720 3215 c0 -43 4 -75 10 -75 6 0 10 28 10 65 0 63 1 65 25 65 14 0 25 5 25 10 0 6 -16 10 -35 10 l-35 0 0 -75z"/>
+					</g>
+					<g id="layer103" fill="#fef9eb" stroke="none">
+					 <path d="M2220 3220 c0 -40 4 -70 10 -70 6 0 10 14 10 30 0 27 3 30 30 30 27 0 30 -3 30 -30 0 -16 4 -30 9 -30 5 0 10 32 10 70 0 39 -4 70 -9 70 -6 0 -10 -13 -10 -30 0 -27 -3 -30 -30 -30 -27 0 -30 3 -30 30 0 17 -4 30 -10 30 -6 0 -10 -30 -10 -70z"/>
+					 <path d="M2362 3267 c-65 -69 34 -163 102 -97 11 11 19 33 19 51 0 62 -78 92 -121 46z m96 -15 c41 -53 -35 -124 -82 -76 -9 8 -16 28 -16 44 0 53 64 74 98 32z"/>
+					 <path d="M2530 3226 c0 -53 -3 -65 -17 -69 -10 -3 2 -5 27 -5 25 0 37 2 28 5 -15 4 -18 16 -18 69 0 36 -4 64 -10 64 -6 0 -10 -28 -10 -64z"/>
+					 <path d="M2606 3237 c1 -90 -1 -87 47 -85 l42 1 -37 4 c-33 4 -38 8 -38 29 0 21 5 24 35 24 19 0 35 5 35 11 0 8 -12 10 -35 6 -33 -5 -35 -4 -35 23 0 26 4 29 38 33 36 4 36 4 -8 5 l-45 2 1 -53z"/>
+					 <path d="M2720 3220 c0 -40 4 -70 10 -70 6 0 10 28 10 64 0 63 1 65 28 69 22 3 20 4 -10 6 l-38 1 0 -70z"/>
+					 <path d="M1511 2713 c-30 -82 -51 -125 -69 -140 l-27 -23 29 0 c44 0 62 23 98 123 l32 90 31 -94 c32 -94 32 -94 11 -103 -19 -9 -18 -10 12 -14 18 -2 45 -2 60 0 l27 3 -29 15 c-23 12 -35 32 -58 95 -53 149 -60 165 -67 165 -5 0 -27 -53 -50 -117z"/>
+					 <path d="M2005 2823 c-32 -8 -75 -54 -87 -94 -34 -116 74 -222 186 -179 47 18 56 69 15 91 -27 14 -41 2 -26 -21 25 -41 -34 -76 -83 -50 -26 14 -50 67 -50 111 0 49 29 100 66 115 44 19 48 18 82 -11 17 -14 33 -21 36 -16 3 5 -8 21 -25 35 -30 25 -64 31 -114 19z"/>
+					 <path d="M2570 2812 c-100 -50 -106 -186 -11 -249 91 -61 205 9 203 124 0 56 -28 99 -77 123 -51 25 -70 25 -115 2z m107 -26 c24 -21 28 -32 31 -93 4 -63 2 -72 -23 -101 -54 -65 -126 -32 -141 65 -17 116 60 192 133 129z"/>
+					 <path d="M1740 2811 c0 -5 9 -11 20 -14 18 -5 20 -14 20 -112 0 -98 -2 -107 -20 -112 -41 -11 -18 -23 43 -22 59 0 61 1 40 16 -21 14 -23 23 -23 120 0 96 2 105 20 110 40 11 18 23 -40 23 -33 0 -60 -4 -60 -9z"/>
+					 <path d="M2260 2811 c0 -5 9 -11 20 -14 19 -5 20 -14 20 -121 0 -64 -3 -116 -7 -116 -30 1 -53 16 -62 41 -14 42 -31 36 -31 -11 l0 -41 118 3 117 3 3 29 c5 43 -15 57 -28 19 -10 -27 -32 -42 -62 -43 -5 0 -8 52 -8 116 0 107 1 116 20 121 40 11 18 23 -40 23 -33 0 -60 -4 -60 -9z"/>
+					 <path d="M2830 2811 c0 -5 9 -11 20 -14 18 -5 20 -14 20 -112 0 -98 -2 -107 -20 -112 -11 -3 -20 -9 -20 -14 0 -12 152 -11 184 1 55 20 58 88 6 115 l-29 15 20 35 c12 20 37 49 57 65 l37 30 -28 0 c-41 0 -60 -13 -101 -70 -46 -64 -66 -66 -66 -4 0 37 4 47 20 51 40 11 18 23 -40 23 -33 0 -60 -4 -60 -9z m164 -147 c17 -16 21 -51 8 -71 -4 -6 -20 -17 -36 -23 -41 -15 -56 1 -56 61 l0 49 34 0 c19 0 42 -7 50 -16z"/>
+					 <path d="M3140 2811 c0 -5 9 -11 20 -14 18 -5 20 -14 20 -112 0 -98 -2 -107 -20 -112 -41 -11 -18 -23 43 -22 59 0 61 1 40 16 -21 14 -23 23 -23 120 0 96 2 105 20 110 40 11 18 23 -40 23 -33 0 -60 -4 -60 -9z"/>
+					 <path d="M3302 2797 c15 -13 43 -62 67 -117 l40 -95 -21 -17 c-20 -18 -20 -18 9 -18 41 0 55 19 98 130 21 52 46 102 56 112 11 9 19 19 19 22 0 3 -25 6 -55 6 -30 0 -55 -4 -55 -10 0 -5 7 -10 15 -10 18 0 19 -9 5 -44 -8 -23 -15 -26 -59 -26 -39 0 -53 4 -61 19 -16 31 -12 51 10 51 11 0 20 5 20 10 0 6 -26 10 -57 10 l-58 0 27 -23z m158 -84 c0 -5 -9 -30 -19 -58 l-19 -50 -21 48 c-12 27 -21 53 -21 58 0 5 18 9 40 9 22 0 40 -3 40 -7z"/>
+					 <path d="M1885 1964 c525 -343 611 -396 630 -388 13 5 288 182 613 394 l589 385 -62 3 -62 3 -539 -353 c-296 -193 -546 -352 -554 -352 -13 0 -248 151 -933 600 l-158 104 -66 0 -65 0 607 -396z"/>
+					 </g>
+				</svg> -->
+			</div>
+			<div class="phone col-md-9 col-sm-9 col-xs-8" align="right">
+				<h3><a href="#">г. Ишимбай, Бульварная 80</a></h3>
+				<h3><a href="#">+7 (917) 406 93 88</a></h3>
+				<h3><a href="#">+7 (347) 946 36 88</a></h3>
+			</div>
+		</div>
+		<div class="col-md-1 col-sm-1 hidden-xs"></div>
+		<div class="info col-md-10 col-sm-10 col-xs-12">
+			<h1>Европейский комфорт по <br>приемлемым ценам</h1>
+			<div class="contact col-md-12 col-sm-12 col-xs-12">
+				<h2>ЗАБРОНИРУЙТЕ НОМЕР ПРЯМО СЕЙЧАС</h2>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<input type="" name="" placeholder="имя">
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<input type="" name="" placeholder="телефон">
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<input type="" name="" placeholder="e-mail">
+				</div>
+				<div class="button col-md-12 col-sm-12 col-xs-12" align="center">
+					<div class="col-md-4 col-sm-4 hidden-xs"></div>
+					<div class="col-md-4 col-sm-4"><button>забронировать</button></div>
+					<div class="col-md-4 col-sm-4 hidden-xs"></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1 col-sm-1 hidden-xs"></div>
+		</div>
+	</div>
+</header>
+<!-- ГОЛОВА -->
+
+
+<!-- НАШИ НОМЕРА -->
+<section class="numbers" id="numbers">
+	<div class="container">
+		<h1>наши номера</h1>
+		<div class="col-md-4 col-sm-4 col-xs-4 item">
+			<div class="img"></div>
+			<div class="text">
+				<h2>эконом</h2>
+				<p>Отличный вариант, если вы в поисках комфортного номера, но у Вас ограниченный бюджет</p>
+			</div>
+			<div class="button">
+				<div class="price"><h3>1 место - 1 500 руб.</h3></div>
+				<div class="price"><h3>3 200 р./сутк</h3></div>
+				<button>забронировать</button>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4 item">
+			<div class="img"></div>
+			<div class="text">
+				<h2>Стандарт</h2>
+				<p>Отличный вариант, если вы в поисках комфортного номера, но у Вас ограниченный бюджет</p>
+			</div>
+			<div class="button">
+				<div class="price"><h3>1 место - 1 500 руб.</h3></div>
+				<div class="price"><h3>3 200 р./сутк</h3></div>
+				<button>забронировать</button>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4 item">
+			<div class="img"></div>
+			<div class="text">
+				<h2>Люкс</h2>
+				<p>Отличный вариант, если вы в поисках комфортного номера, но у Вас ограниченный бюджет</p>
+			</div>
+			<div class="button">
+				<div class="price"><h3>3 200 р./сутк</h3></div>
+				<button>забронировать</button>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- НАШИ НОМЕРА -->
+
+<!-- ПРЕИМУЩЕСТВА -->
+
+<section class="advantages" id="advantages">
+	<div class="row">
+		<div class="container">
+			<h1>НАШИ ПРЕИМУЩЕСТВА</h1>
+			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="item col-md-10 col-sm-10 col-xs-10">
+				<div class="col-md-4 col-sm-4 col-xs-6 info" align="center">
+					<img src="img/bed.png">
+					<h3>Семейный номер</h3>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6 info" align="center">
+					<img src="img/hair-dryer.png">
+					<h3>Полный комплект бытовой техники</h3>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6 info" align="center">
+					<img src="img/baby-boy.png">
+					<h3>Возможна размещение с детьми</h3>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6 info" align="center">
+					<img src="img/wifi.png">
+					<h3>Бесплатный Wi-Fi</h3>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6 info" align="center">
+					<img src="img/fork.png">
+					<h3>Различные схемы питания</h3>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6 info" align="center">
+					<img src="img/maid.png">
+					<h3>Ежедневная уборка</h3>
+				</div>
+			</div>
+			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+		</div>
+	</div>
+</section>
+
+<!-- ПРЕИМУЩЕСТВА -->
+
+
+<!-- ЭТАПЫ -->
+
+<section class="stage" id="stage">
+	<div class="container">
+		<h1>КАК МЫ РАБОТАЕМ?</h1>
+		<div class="col-md-12 info" align="center">
+			<div class="col-md-3 col-sm-6 col-xs-12 item">
+				<div class="radius">
+					<img src="img/phone.png">
+					<p>Вы оставляете заявку на сайте или связываетесь с нами по телефону</p>
+				</div>
+				<div class="radius2">
+					<h1>1</h1>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 item">
+				<div class="radius">
+					<img src="img/support.png">
+					<p>Наш менеджер свяжется с вами для уточнений деталей</p>
+				</div>
+				<div class="radius2">
+					<h1>2</h1>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 item">
+				<div class="radius">
+					<img src="img/hand-shake.png">
+					<p>Мы заключаем с вами договор на основе которого вы заселяетесь</p>
+				</div>
+				<div class="radius2">
+					<h1>3</h1>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 item">
+				<div class="radius">
+					<img src="img/deal.png">
+					<p>Вы заселяетесь в свой номер, после чего оплачиваете всю сумму</p>
+				</div>
+				<div class="radius2">
+					<h1>4</h1>
+				</div>
+			</div>
+			<button>ОСТАВИТЬ ЗАЯВКУ</button>
+		</div>
+	</div>
+</section>
+
+<!-- ЭТАПЫ -->
+
+
+<!-- ОТЗЫВЫ -->
+
+<div class="reviews" id="reviews">
+	<div class="container">
+		<h1>отзывы</h1>
+		<div class="col-md-1"></div>	
+		<div class="col-md-10">
+			<div class="owl-carousel owl-theme owl1" id="owl" align="center">
+				<div class="item" align="center">
+					<div class="img" style="background-image: url('../img/man-2.jpg');"></div>	
+					<h3>Иван Иванов</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat ex, scelerisque eget aliquam eget, laoreet nec urna. Pellentesque iaculis luctus dui et volutpat. In porttitor est lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin et efficitur diam. Donec vulputate massa vitae nisl blandit, vitae lacinia purus faucibus.</p>
+				</div>
+				<div class="item" align="center">
+					<div class="img" style="background-image: url('../img/man-2.jpg');"></div>	
+					<h3>Иван Иванов</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat ex, scelerisque eget aliquam eget, laoreet nec urna. Pellentesque iaculis luctus dui et volutpat. In porttitor est lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin et efficitur diam. Donec vulputate massa vitae nisl blandit, vitae lacinia purus faucibus.</p>
+				</div>
+				<div class="item" align="center">
+					<div class="img" style="background-image: url('../img/man-2.jpg');"></div>	
+					<h3>Иван Иванов</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat ex, scelerisque eget aliquam eget, laoreet nec urna. Pellentesque iaculis luctus dui et volutpat. In porttitor est lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin et efficitur diam. Donec vulputate massa vitae nisl blandit, vitae lacinia purus faucibus.</p>
+				</div>
+			</div>
+		</div>	
+		<div class="col-md-1"></div>	
+	</div>
+</div>
+
+<!-- ОТЗЫВЫ -->
+
+
+
+<!-- КАРТА -->
+
+<section class="map" id="map">
+<!-- 	<div class="item">
+		<h1>ЗАБРОНИРУЙТЕ НОМЕР ПРЯМО СЕЙЧАС</h1>
+		<div class="col-md-12 col-sm-4 col-xs-12">
+			<input type="" name="" placeholder="имя">
+		</div>
+		<div class="col-md-12 col-sm-4 col-xs-12">
+			<input type="" name="" placeholder="телефон">
+		</div>
+		<div class="col-md-12 col-sm-4"><button>забронировать</button></div>
+	</div> -->
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad695e9188fb137052a520be8b8ce452a95ad44d13f7f5286f83990c46a10ce54&amp;width=100%25&amp;height=370&amp;lang=ru_RU&amp;scroll=true"></script>
+    
+</section>
+
+<!-- КАРТА -->
+</div>
+
+<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+<script src="libs/animate/wow.min.js"></script>
+<script src="libs/animate/animate-css.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

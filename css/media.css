@@ -1,0 +1,396 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+/* ЭТАПЫ */
+.stage .container .info .item {
+	padding: 0 10px;
+}
+.stage .container .info .item .radius {
+	height: 222.5px;
+}
+.stage .container .info .item .radius p {
+	font-size: 14px;
+}
+/* ЭТАПЫ */
+
+
+/* MENU */
+.fade-menu .top h3 {
+	margin-left: 25px;
+}
+/* MENU */
+
+}
+
+@media only screen and (max-width: 1190px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 991px) {
+/* MENU */
+.fade-menu .top h3 {
+	display: none;
+}
+.fade-menu .click-on {
+	display: block;
+}
+.fade-menu .top .button {
+	padding: 21px 0;
+}
+.fade-menu .top .container {
+	padding: 0 20px 0 0;
+}
+/* MENU */
+.head {
+	height: 600px;
+}
+.head .container .top-menu .logo h1 {
+	 font-size: 30px;
+}
+.head .container .top-menu .phone {
+	padding: 10px 0;
+}
+.head .container .top-menu .phone h3 {
+	font-size: 16px;
+	margin-left: 20px;
+}
+.head .container .info {
+	margin-top: 62.5px;
+}
+.head .container .info h1 {
+	font-size: 40px;
+	line-height: 50px;
+}
+.head .container .info .contact h2 {
+	font-size: 20px;
+}
+.head .container .info .contact input {
+	font-size: 16px;
+}
+.head .container .info .contact .button button {
+	font-size: 16px;
+}
+
+/* НАШИ НОМЕРА */
+
+.numbers .container h1 {
+	font-size: 25px;
+}
+.numbers .container .item {
+	padding: 0 20px;
+}
+.numbers .container .item .img {
+	height: 160px;
+}
+.numbers .container .item .text {
+	height: 160px;
+}
+.numbers .container .item .text h2 {
+	font-size: 16px;
+}
+.numbers .container .item .text p {
+	font-size: 16px;
+}
+.numbers .container .item .price h3 {
+	font-size: 16px;
+}
+.numbers .container .item button {
+	font-size: 16px;
+}
+/* НАШИ НОМЕРА */
+
+
+/* ПРЕИМУЩЕСТВА */ 
+
+.advantages .container h1 {
+	font-size: 25px;
+}
+.advantages .container .item .info {
+	height: 180px;
+	padding: 15px;
+}
+.advantages .container .item .info img {
+	width: 35%;
+}
+.advantages .container .item .info h3 {
+	font-size: 16px;
+}
+
+/* ПРЕИМУЩЕСТВА */
+
+/* ЭТАПЫ */
+.stage .container h1 {
+	font-size: 25px;
+}
+.stage .container .info .item {
+	padding: 0 40px;
+}
+.stage .container .info .item .radius {
+	height: 295px;
+}
+.stage .container .info .item .radius p {
+	font-size: 14px;
+}
+.stage .container .info button {
+	font-size: 16px;
+}
+.stage .container .info .item .radius img {
+	margin-top: 60px;
+}
+/* ЭТАПЫ */
+
+
+/* ОТЗЫВЫ */
+
+.reviews .container h1 {
+	font-size: 25px;
+}
+.reviews .container #owl .item h3 {
+	font-size: 18px;
+}
+.reviews .container #owl .item p {
+	font-size: 14px;
+}
+
+/* ОТЗЫВЫ */
+
+}
+
+@media only screen and (max-width: 823px) {
+/* ОТЗЫВЫ */
+
+.reviews .container #owl .owl-nav {
+	display: none;
+}
+
+/* ОТЗЫВЫ */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+.head .container {
+	padding: 0 20px;
+} 
+.head .container .top-menu .logo h1 {
+	 font-size: 22px;
+}
+.head .container .top-menu .phone {
+	padding: 0px 0;
+}
+.head .container .top-menu .phone h3 {
+	font-size: 12px;
+}
+.head .container .info {
+	margin-top: 12.5px;
+}
+.head .container .info h1 {
+	font-size: 26px;
+	line-height: 35px;
+	margin-bottom: 20px;
+}
+.head .container .info .contact h2 {
+	font-size: 14px;
+}
+.head .container .info .contact input {
+	font-size: 12px;
+}
+.head .container .info .contact .button {
+	margin: 0;
+}
+.head .container .info .contact .button button {
+	font-size: 12px;
+}
+.head .container .info .contact .col-md-4 {
+	padding: 0 0 10px 0;
+}
+
+/* НАШИ НОМЕРА */
+.numbers .container {
+	padding: 50px 0;
+}
+.numbers .container h1 {
+	font-size: 22px;
+}
+.numbers .container .item {
+	padding: 0 20px 30px;
+}
+
+.numbers .container .item .text {
+	height: 130px;
+	padding: 0 5px;
+}
+.numbers .container .item .text h2 {
+	font-size: 12px;
+	padding: 10px 0 5px;
+}
+.numbers .container .item .text p {
+	font-size: 12px;
+}
+.numbers .container .item .price h3 {
+	font-size: 12px;
+}
+.numbers .container .item button {
+	font-size: 12px;
+}
+/* НАШИ НОМЕРА */
+
+/* ПРЕИМУЩЕСТВА */ 
+
+.advantages .container h1 {
+	font-size: 22px;
+}
+
+.advantages .container .item .info h3 {
+	font-size: 14px;
+}
+
+/* ПРЕИМУЩЕСТВА */
+
+/* ЭТАПЫ */
+.stage .container h1 {
+	font-size: 22px;
+}
+.stage .container .info .item {
+	padding: 0 40px;
+}
+.stage .container .info .item .radius {
+	width: 245px;
+	height: 245px;
+	padding: 0 30px;
+}
+.stage .container .info .item .radius p {
+	font-size: 14px;
+}
+.stage .container .info button {
+	font-size: 16px;
+}
+.stage .container .info .item .radius img {
+	margin-top: 60px;
+}
+.stage .container .info .item .radius2 h1 {
+	margin: 30px 0;
+}
+/* ЭТАПЫ */
+.menu-sm {
+	width: 300px;
+}
+.menu-sm h3 {
+	padding: 15px 20px;
+}
+.all-1 {
+	transform: translate(-300px)!important;
+}
+.bottom-menu .container {
+	padding: 0 20px 0 0;
+}
+.head .container .top-menu .logo img {
+	left: -45px;
+}
+.fade-menu img {
+	left: -25px;
+	top: -50px;
+}
+.head .container .top-menu {
+	/*padding: 0 0 0 20px;*/
+}
+.bottom-menu {
+	display: none;
+}
+}
+
+@media only screen and (max-width: 736px) {
+
+
+}
+
+@media only screen and (max-width: 667px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 570px) {
+/* НАШИ НОМЕРА */
+.numbers .container .item {
+	width: 100%;
+}
+.numbers .container .item .text {
+	height: 90px;
+	padding: 0 5px;
+} 
+.numbers .container .item .img {
+	height: 130px;
+}
+/* НАШИ НОМЕРА */
+}
+
+@media only screen and (max-width: 519px) {
+.head .container .top-menu .logo img {
+	top: -60px;
+}
+.menu-sm {
+	width: 200px;
+}
+.all-1 {
+	transform: translate(-200px)!important;
+} 
+}
+
+@media only screen and (max-width: 380px) {
+.advantages .container .item .info {
+	height: 180px;
+	padding: 15px;
+	width: 100%;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+}
+@media only screen and (min-width: 1800px) {
+
+}
+@media only screen and (min-width: 2300px) {
+
+}
